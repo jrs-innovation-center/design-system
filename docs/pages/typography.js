@@ -6,7 +6,7 @@ import {
   Truncate,
   Divider,
   theme
-} from 'pcln-design-system'
+} from 'trhc-design-system'
 import { PageTitle, Description } from '../src/components'
 
 const Typography = props => (

@@ -1,4 +1,3 @@
-
 # Absolute
 
 Use `Absolute` component to control position. Use with a `Relative` parent/ancestor.
@@ -9,11 +8,12 @@ Use `Absolute` component to control position. Use with a `Relative` parent/ances
 <Relative
   p={5}
   zIndex={-1}
-  bg='lightBlue'>
+  bg='lightGreen'>
   <Absolute
     p={3}
     m={2}
-    bg='blue'
+    color='white'
+    bg='darkGreen'
     top={0}
     right={0}>
     Absolute
@@ -25,10 +25,10 @@ Note: `zIndex` is set for documentation purposes only. Generally you should avoi
 
 ## Props
 
-Prop | Type | Description
----|---|---
-`top` | number, string, or array | Sets top
-`bottom` | number, string, or array | Sets bottom
-`left` | number, string, or array | Sets left
-`right` | number, string, or array | Sets right
-`zIndex` | number or string | Sets z-index
+| Prop     | Type                     | Description  |
+| -------- | ------------------------ | ------------ |
+| `top`    | number, string, or array | Sets top     |
+| `bottom` | number, string, or array | Sets bottom  |
+| `left`   | number, string, or array | Sets left    |
+| `right`  | number, string, or array | Sets right   |
+| `zIndex` | number or string         | Sets z-index |

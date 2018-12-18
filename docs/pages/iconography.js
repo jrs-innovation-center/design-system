@@ -8,8 +8,8 @@ import {
   BlockLink,
   Divider,
   theme
-} from 'pcln-design-system'
-import icons from 'pcln-design-system/icons.json'
+} from 'trhc-design-system'
+import icons from 'trhc-design-system/icons.json'
 import { PageTitle, Description, Code } from '../src/components'
 
 const iconNames = Object.keys(icons).filter(key => key !== 'legacy')

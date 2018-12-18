@@ -1,8 +1,8 @@
 import { version } from '../../package.json'
 import {
-  ButtonLink,
-  Code,
-  Description
+ButtonLink,
+Code,
+Description
 } from '../src/components'
 
 # TRHC
@@ -16,7 +16,6 @@ import {
 <ButtonLink href='https://github.com/jrs-innovation-center/design-system-sketch/releases/latest'>
   Download Sketch Kit
 </ButtonLink>
-
 
 ## Getting Started
 
@@ -38,17 +37,17 @@ The ThemeProvider is a wrapper around styled-components' [ThemeProvider][sc-them
 [sc-theme]: https://www.styled-components.com/docs/advanced#theming
 
 ```jsx
-import React from 'react'
-import { ThemeProvider } from 'trhc-design-system'
-import SomeView from './SomeView'
+import React from "react";
+import { ThemeProvider } from "trhc-design-system";
+import SomeView from "./SomeView";
 
 class App extends React.Component {
-  render () {
+  render() {
     return (
       <ThemeProvider>
         <h1>Hello</h1>
       </ThemeProvider>
-    )
+    );
   }
 }
 ```
@@ -66,12 +65,12 @@ To use the Montserrat font-family in you project, be sure to include a link in y
 Import and use the design system UI components in your application.
 
 ```jsx
-import React from 'react'
-import { Box, Text } from 'trhc-design-system'
+import React from "react";
+import { Box, Text } from "trhc-design-system";
 
 const SomeView = props => (
   <Box p={3}>
-    <Text color='blue'>Hello</Text>
+    <Text color="blue">Hello</Text>
   </Box>
-)
+);
 ```

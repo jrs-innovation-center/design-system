@@ -1,5 +1,5 @@
-import * as DS from 'pcln-design-system'
-import { Heading, Text, Link, BlockLink, Button } from 'pcln-design-system'
+import * as DS from 'trhc-design-system'
+import { Heading, Text, Link, BlockLink, Button } from 'trhc-design-system'
 import styled from 'styled-components'
 import { space, fontSize, color, theme } from 'styled-system'
 import { components as mdxDocsComponents } from 'mdx-docs'

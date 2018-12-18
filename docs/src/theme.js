@@ -3,23 +3,23 @@ import { theme } from 'trhc-design-system'
 
 const { space, colors, fontSizes, fontWeights } = theme
 
-const { blue, lightGray, borderGray } = colors
+const { secondary, lightGray, borderGray } = colors
 
 const monospace = '"Roboto Mono", Menlo, monospace'
 
 export default {
-  font: 'Montserrat, sans-serif',
+  font: 'Roboto, sans-serif',
   lineHeight: 1.6,
   code: {
     fontFamily: monospace,
     fontSize: '14px',
-    color: blue
+    color: secondary
   },
   pre: {
     fontFamily: monospace,
     fontSize: '14px',
     padding: '16px',
-    color: blue,
+    color: secondary,
     backgroundColor: lightGray,
     borderRadius: '2px'
   },
@@ -32,7 +32,7 @@ export default {
 
   MenuButton: {
     padding: '8px',
-    color: blue
+    color: secondary
   },
 
   LiveCode: {
@@ -48,12 +48,12 @@ export default {
     fontSize: '14px',
     padding: '16px',
     overflowX: 'auto',
-    color: blue,
+    color: secondary,
     backgroundColor: lightGray
   },
 
   PaginationLink: {
-    color: blue,
+    color: secondary,
     fontSize: fontSizes[3] + 'px'
   }
 }

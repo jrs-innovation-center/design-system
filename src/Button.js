@@ -41,7 +41,7 @@ const Button = styled.button`
   line-height: 1.5;
   cursor: pointer;
   border-radius: ${props => props.theme.radius};
-  background-color: ${props => props.theme.colors.blue};
+  background-color: ${props => props.theme.colors.secondary};
   color: ${props => props.theme.colors.white};
   border-width: 0;
   border-style: solid;
@@ -52,7 +52,7 @@ const Button = styled.button`
 
   &:hover {
     background-color: ${props =>
-      props.disabled ? null : props.theme.colors.darkBlue};
+      props.disabled ? null : props.theme.colors.primary};
   }
 
   ${fullWidth} ${size} ${space};

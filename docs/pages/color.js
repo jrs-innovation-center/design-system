@@ -8,7 +8,7 @@ import {
   Text,
   Divider,
   theme
-} from 'pcln-design-system'
+} from 'trhc-design-system'
 import select from 'select'
 import { PageTitle, Description, Code } from '../src/components'
 

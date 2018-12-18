@@ -1,8 +1,8 @@
 import React from 'react'
-import { Heading, Box } from 'pcln-design-system'
+import { Heading, Box, Text } from 'trhc-design-system'
 import Link from 'next/link'
 import NavLink from './NavLink'
-import Logo from './Logo'
+
 import navigation from './navigation'
 
 export default props => (
@@ -10,7 +10,9 @@ export default props => (
     <Box px={3} pb={4}>
       <Link href="/">
         <div>
-          <Logo />
+          <Text fontSize={3} color="primary">
+            THRC Design System
+          </Text>
         </div>
       </Link>
     </Box>
