@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { space } from 'styled-system'
+import { space, borderRadius } from 'styled-system'
 import theme from './theme'
 
 const size = props => {
@@ -55,7 +55,7 @@ const Button = styled.button`
       props.disabled ? null : props.theme.colors.primary};
   }
 
-  ${fullWidth} ${size} ${space};
+  ${fullWidth} ${size} ${space} ${borderRadius};
 `
 
 const numberStringOrArray = PropTypes.oneOfType([
@@ -83,7 +83,9 @@ Button.propTypes = {
   pb: numberStringOrArray,
   pl: numberStringOrArray,
   px: numberStringOrArray,
-  py: numberStringOrArray
+  py: numberStringOrArray,
+  /** Border Radius */
+  borderRadius: numberStringOrArray
 }
 
 Button.defaultProps = {
