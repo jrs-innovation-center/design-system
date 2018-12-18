@@ -15,7 +15,7 @@ const RouterLink = styled(mdxDocsComponents.a)(
 )
 
 RouterLink.defaultProps = {
-  color: 'blue'
+  color: 'green'
 }
 
 const heading = type => props => {

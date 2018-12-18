@@ -37,8 +37,8 @@ ToggleBadge.defaultProps = {
   my: 1,
   fontSize: 0,
   theme: theme,
-  color: 'blue',
-  bg: 'lightBlue',
+  color: 'darkGreen',
+  bg: 'lightGreen',
   unSelectedBg: 'transparent'
 }
 

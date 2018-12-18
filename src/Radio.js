@@ -8,18 +8,19 @@ import Text from './Text'
 
 const propTypes = {
   checked: PropTypes.bool,
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+  size: PropTypes.number
 }
 
 const Radio = props => {
-  const { checked, disabled } = props
+  const { checked, disabled, size } = props
 
   const radioIconName = checked ? 'radioChecked' : 'radioEmpty'
 
   return (
     <RadioWrap checked={checked} disabled={disabled}>
       <RadioInput type="radio" {...props} />
-      <RadioIcon name={radioIconName} size={24} />
+      <RadioIcon name={radioIconName} size={size} />
     </RadioWrap>
   )
 }
@@ -31,7 +32,7 @@ const RadioWrap = styled.div`
     ${props =>
       props.checked || props.disabled
         ? null
-        : `color: ${props.theme.colors.blue};`};
+        : `color: ${props.theme.colors.green};`};
   }
 `
 
@@ -57,7 +58,8 @@ const RadioIcon = styled(Icon)`
 
 Radio.propTypes = propTypes
 Radio.defaultProps = {
-  theme: theme
+  theme: theme,
+  size: 24
 }
 
 export default Radio

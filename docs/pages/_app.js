@@ -7,7 +7,7 @@ import docsTheme from '../src/theme'
 import navigation from '../src/navigation'
 import SideNav from '../src/SideNav'
 
-const basepath = process.env.NODE_ENV === 'production' ? '/design-system' : ''
+const basepath = ''
 
 const routes = navigation.reduce(
   (a, item) => [...a, ...(item.links || [item])],

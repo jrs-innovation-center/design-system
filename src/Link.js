@@ -18,7 +18,7 @@ Link.propTypes = {
 }
 
 Link.defaultProps = {
-  color: 'blue',
+  color: 'green',
   theme: theme
 }
 

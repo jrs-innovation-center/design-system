@@ -66,7 +66,7 @@ const Slider = styled(Range)`
 
 Slider.defaultProps = {
   allowCross: false,
-  color: 'blue',
+  color: 'green',
   theme
 }
 
