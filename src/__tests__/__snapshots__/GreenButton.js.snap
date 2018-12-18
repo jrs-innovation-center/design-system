@@ -26,7 +26,7 @@ exports[`GreenButton disabled prop sets 1`] = `
 }
 
 .c0 {
-  background-color: #0a0;
+  background-color: #82bc00;
 }
 
 <button
@@ -65,11 +65,11 @@ exports[`GreenButton renders 1`] = `
 }
 
 .c0 {
-  background-color: #0a0;
+  background-color: #82bc00;
 }
 
 .c0:hover {
-  background-color: #060;
+  background-color: #4a7628;
 }
 
 <button
@@ -107,11 +107,11 @@ exports[`GreenButton without disabled prop sets 1`] = `
 }
 
 .c0 {
-  background-color: #0a0;
+  background-color: #82bc00;
 }
 
 .c0:hover {
-  background-color: #060;
+  background-color: #4a7628;
 }
 
 <button

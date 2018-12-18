@@ -2,7 +2,7 @@
 
 exports[`ThemeProvider Base component includes a font 1`] = `
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 
@@ -21,7 +21,7 @@ exports[`ThemeProvider accepts a custom breakpoints prop 1`] = `
 }
 
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 
@@ -59,7 +59,7 @@ exports[`ThemeProvider accepts a custom breakpoints prop 1`] = `
 
 exports[`ThemeProvider renders 1`] = `
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 
@@ -74,7 +74,7 @@ exports[`ThemeProvider renders 1`] = `
 
 exports[`ThemeProvider renders with legacy prop 1`] = `
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 

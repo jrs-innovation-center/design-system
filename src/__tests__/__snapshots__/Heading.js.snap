@@ -4,14 +4,14 @@ exports[`Heading Heading component using <Text> component properties 1`] = `
 .c0 {
   font-size: 24px;
   margin: 0px;
-  color: #687B8E;
+  color: #646667;
   font-weight: 400;
   text-align: center;
 }
 
 <h3
   className="c0"
-  color="#687B8E"
+  color="#646667"
   fontSize={4}
 />
 `;

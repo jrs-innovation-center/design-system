@@ -1,4 +1,3 @@
-
 # TRHC Design System
 
 [![Build Status][travis-badge]][travis]
@@ -60,7 +59,8 @@ We hope to accomplish these goals by:
 
 ## Thank you
 
-* [pricelinelabs](https://pricelinelabs.github.io/design-system/)
-* [styled-components](https://www.styled-components.com/)
-* [styled-system](https://github.com/jxnblk/styled-system)
-* [tachyons](https://tachyons.io/)
+This design system base would simply not be possible without the following open source projects:
+
+- [pricelinelabs](https://pricelinelabs.github.io/design-system/)
+- [styled-components](https://www.styled-components.com/)
+- [styled-system](https://github.com/jxnblk/styled-system)

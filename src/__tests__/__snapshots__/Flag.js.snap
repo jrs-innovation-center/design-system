@@ -5,7 +5,7 @@ exports[`Flag renders 1`] = `
   margin-bottom: -8px;
   margin-right: -8px;
   width: 4px;
-  color: #0a0;
+  color: #82bc00;
 }
 
 .c6 {
@@ -13,13 +13,13 @@ exports[`Flag renders 1`] = `
   padding-top: 4px;
   padding-bottom: 4px;
   color: #fff;
-  background-color: #0a0;
+  background-color: #82bc00;
 }
 
 .c8 {
   margin-left: -8px;
   width: 18px;
-  color: #0a0;
+  color: #82bc00;
 }
 
 .c0 {
@@ -297,7 +297,7 @@ exports[`Flag renders with theme color as bg color 1`] = `
 }
 
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 
@@ -359,7 +359,7 @@ exports[`Flag renders with width prop 1`] = `
   margin-bottom: -8px;
   margin-right: -8px;
   width: 4px;
-  color: #0a0;
+  color: #82bc00;
 }
 
 .c6 {
@@ -367,13 +367,13 @@ exports[`Flag renders with width prop 1`] = `
   padding-top: 4px;
   padding-bottom: 4px;
   color: #fff;
-  background-color: #0a0;
+  background-color: #82bc00;
 }
 
 .c8 {
   margin-left: -8px;
   width: 18px;
-  color: #0a0;
+  color: #82bc00;
 }
 
 .c0 {

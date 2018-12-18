@@ -81,10 +81,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pricelinelabs/design-system.git"
+    "url": "git+https://github.com/jrs-innovation-center/design-system.git"
   },
   "bugs": {
-    "url": "https://github.com/pricelinelabs/design-system/issues"
+    "url": "https://github.com/jrs-innovation-center/design-system/issues"
   },
-  "homepage": "https://github.com/pricelinelabs/design-system#readme"
+  "homepage": "https://github.com/jrs-innovation-center/design-system#readme"
 }

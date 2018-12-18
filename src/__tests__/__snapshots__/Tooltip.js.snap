@@ -267,7 +267,7 @@ exports[`Tooltip top center 1`] = `
   margin-bottom: 16px;
   margin-top: 8px;
   padding: 8px;
-  background-color: #000;
+  background-color: rgba(0,0,0,.87);
   color: #fff;
 }
 
@@ -278,7 +278,7 @@ exports[`Tooltip top center 1`] = `
   position: absolute;
   border-radius: 2px;
   box-sizing: border-box;
-  background: #000;
+  background: rgba(0,0,0,.87);
   text-align: center;
   bottom: -8px;
   left: 50%;
@@ -295,7 +295,7 @@ exports[`Tooltip top center 1`] = `
   height: 0;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #000 #000;
+  border-color: transparent transparent rgba(0,0,0,.87) rgba(0,0,0,.87);
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;

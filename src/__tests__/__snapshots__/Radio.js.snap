@@ -38,7 +38,7 @@ exports[`Radio Disabled, rendering 1`] = `
 }
 
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 
@@ -117,7 +117,7 @@ exports[`Radio Not Selected, rendering 1`] = `
 }
 
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 
@@ -191,7 +191,7 @@ exports[`Radio Selected, rendering 1`] = `
 }
 
 .c0 {
-  font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.4;
 }
 

@@ -21,7 +21,7 @@ addAliases(mediaQueries, aliases)
 
 export const space = [0, 4, 8, 16, 32, 64, 128]
 
-export const font = `'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif`
+export const font = `'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif`
 
 export const fontSizes = [12, 14, 16, 20, 24, 32, 48]
 
@@ -40,28 +40,42 @@ const letterSpacings = {
 }
 
 // color palette
-const black = '#000'
+const black = 'rgba(0,0,0,.87)'
 const white = '#fff'
 const text = '#001833'
 const lightBlue = '#cdf'
-const blue = '#007aff' // primary
+const blue = '#007aff'
 const darkBlue = '#049'
 const lightGray = '#f6f8fa'
 const borderGray = '#d1d6db'
-const gray = '#687B8E' // primary
+const gray = '#646667'
 const darkGray = '#364049'
 const lightGreen = '#cec'
-const green = '#0a0' // secondary
-const darkGreen = '#060'
+const green = '#82bc00' // primary
+const darkGreen = '#4a7628' // secondary
 const lightRed = '#fcc'
-const red = '#c00' // secondary
+const red = '#c00'
 const darkRed = '#800'
 const lightOrange = '#feb'
-const orange = '#fa0' // secondary
+const orange = '#fa0'
 const darkOrange = '#a50'
 const lightPurple = '#ecf'
-const purple = '#70b' // secondary
+const purple = '#70b'
 const darkPurple = '#407'
+
+const black54 = 'rgba(0,0,0,.54)'
+const black42 = 'rgba(0,0,0,.42)'
+const black38 = 'rgba(0,0,0,.38)'
+const black26 = 'rgba(0,0,0,.26)'
+const black12 = 'rgba(0,0,0,.12)'
+const black06 = 'rgba(0,0,0,.06)'
+
+const invalid = 'rgba(230,0,0,.87)'
+const riskVeryHigh = 'rgba(255,0,0,1)'
+const riskHigh = 'rgba(255,153,0,1)'
+const riskModerate = 'rgba(252,204,0,1)'
+const riskLow = 'rgba(255,255,153,1)'
+const riskVeryLow = 'rgba(153,204,255,1)'
 
 // tints
 const flatten = (name, colors) =>
@@ -80,7 +94,23 @@ const oranges = [lightOrange, lightOrange, orange, orange]
 const purples = [lightPurple, lightPurple, purple, purple]
 
 const colors = {
+  primary: green,
+  secondary: darkGreen,
+  tertiary: gray,
+
   black,
+  black54,
+  black42,
+  black38,
+  black26,
+  black12,
+  black06,
+  invalid,
+  riskVeryHigh,
+  riskVeryLow,
+  riskHigh,
+  riskLow,
+  riskModerate,
   white,
   text,
   blue,

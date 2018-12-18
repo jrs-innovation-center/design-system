@@ -65,7 +65,7 @@ exports[`Stamp color gray sets text and icon color 1`] = `
   padding-top: 0px;
   padding-bottom: 0px;
   font-size: 12px;
-  color: #687B8E;
+  color: #646667;
   background-color: #f6f8fa;
 }
 
@@ -103,7 +103,7 @@ exports[`Stamp color green sets text and icon color 1`] = `
   padding-top: 0px;
   padding-bottom: 0px;
   font-size: 12px;
-  color: #0a0;
+  color: #82bc00;
   background-color: #f6f8fa;
 }
 
@@ -255,7 +255,7 @@ exports[`Stamp renders 1`] = `
   padding-top: 0px;
   padding-bottom: 0px;
   font-size: 12px;
-  color: #687B8E;
+  color: #646667;
   background-color: #f6f8fa;
 }
 

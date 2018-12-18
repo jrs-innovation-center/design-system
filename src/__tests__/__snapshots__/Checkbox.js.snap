@@ -12,7 +12,7 @@ exports[`Checkbox renders checked when defaultChecked prop is passed as true 1`]
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  color: #687B8E;
+  color: #646667;
 }
 
 .c0 svg[data-name='checked'] {
@@ -249,7 +249,7 @@ exports[`Checkbox renders with the theme passed specifically 1`] = `
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  color: #687B8E;
+  color: #646667;
 }
 
 .c0 svg[data-name='checked'] {
@@ -328,7 +328,7 @@ exports[`Checkbox renders without the theme passed specifically 1`] = `
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  color: #687B8E;
+  color: #646667;
 }
 
 .c0 svg[data-name='checked'] {
@@ -407,7 +407,7 @@ exports[`Checkbox updates and fires callback when clicked (when enabled) 1`] = `
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  color: #687B8E;
+  color: #646667;
 }
 
 .c0 svg[data-name='checked'] {
