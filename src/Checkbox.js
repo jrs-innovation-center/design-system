@@ -33,7 +33,7 @@ const CheckBoxWrapper = styled(Box)`
       color: ${props =>
         props.disabled
           ? props.theme.colors.borderGray
-          : props.theme.colors.blue};
+          : props.theme.colors.green};
     }
 
     & ~ svg[data-name='empty'] {
@@ -63,7 +63,7 @@ Checkbox.propTypes = {
 }
 
 Checkbox.defaultProps = {
-  size: 20,
+  size: 30,
   disabled: false,
   defaultChecked: false,
   theme: theme

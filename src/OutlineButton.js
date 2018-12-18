@@ -5,14 +5,14 @@ import Button from './Button'
 import theme from './theme'
 
 const OutlineButton = styled(Button)`
-  color: ${props => props.theme.colors.blue};
-  box-shadow: inset 0 0 0 2px ${props => props.theme.colors.blue};
+  color: ${props => props.theme.colors.green};
+  box-shadow: inset 0 0 0 2px ${props => props.theme.colors.green};
   background-color: transparent;
 
   &:hover {
-    color: ${props => (props.disabled ? null : props.theme.colors.darkBlue)};
+    color: ${props => (props.disabled ? null : props.theme.colors.darkGreen)};
     box-shadow: inset 0 0 0 2px
-      ${props => (props.disabled ? null : props.theme.colors.darkBlue)};
+      ${props => (props.disabled ? null : props.theme.colors.darkGreen)};
     background-color: transparent;
   }
 `
