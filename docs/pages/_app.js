@@ -1,7 +1,7 @@
 import React from 'react'
 import App, { Container } from 'next/app'
 import { Layout, Pagination } from 'mdx-docs'
-import { ThemeProvider, Box } from 'pcln-design-system'
+import { ThemeProvider, Box } from 'trhc-design-system'
 import components from '../src/components'
 import docsTheme from '../src/theme'
 import navigation from '../src/navigation'

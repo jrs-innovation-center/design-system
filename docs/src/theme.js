@@ -1,5 +1,5 @@
 // theme for mdx-docs components
-import { theme } from 'pcln-design-system'
+import { theme } from 'trhc-design-system'
 
 const { space, colors, fontSizes, fontWeights } = theme
 

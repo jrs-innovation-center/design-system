@@ -5,15 +5,15 @@ import {
   Description
 } from '../src/components'
 
-# Priceline One
+# TRHC
 
 <Description>
-  Priceline Design System <Code>v{version}</Code>
+  TRHC Design System <Code>v{version}</Code>
 </Description>
 
 ## Sketch Kit
 
-<ButtonLink href='https://github.com/pricelinelabs/design-system-sketch/releases/latest'>
+<ButtonLink href='https://github.com/jrs-innovation-center/design-system-sketch/releases/latest'>
   Download Sketch Kit
 </ButtonLink>
 
@@ -23,7 +23,7 @@ import {
 Install the Design System in your application
 
 ```sh
-npm install pcln-design-system
+npm install trhc-design-system
 ```
 
 ## ThemeProvider
@@ -39,7 +39,7 @@ The ThemeProvider is a wrapper around styled-components' [ThemeProvider][sc-them
 
 ```jsx
 import React from 'react'
-import { ThemeProvider } from 'pcln-design-system'
+import { ThemeProvider } from 'trhc-design-system'
 import SomeView from './SomeView'
 
 class App extends React.Component {
@@ -53,12 +53,12 @@ class App extends React.Component {
 }
 ```
 
-## Montserrat font
+## Roboto font
 
 To use the Montserrat font-family in you project, be sure to include a link in your document `<head>`.
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,600" rel="stylesheet">
 ```
 
 ## Primitive UI Components
@@ -67,7 +67,7 @@ Import and use the design system UI components in your application.
 
 ```jsx
 import React from 'react'
-import { Box, Text } from 'pcln-design-system'
+import { Box, Text } from 'trhc-design-system'
 
 const SomeView = props => (
   <Box p={3}>

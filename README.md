@@ -1,26 +1,26 @@
 
-# Priceline Design System
+# TRHC Design System
 
 [![Build Status][travis-badge]][travis]
 [![Coverage][coverage-badge]][coverage]
 [![npm version][npm version]][npm version]
 
-[travis-badge]: https://img.shields.io/travis/pricelinelabs/design-system/master.svg?style=flat-square
-[travis]: https://travis-ci.org/pricelinelabs/design-system
-[coverage-badge]: https://img.shields.io/codecov/c/github/pricelinelabs/design-system.svg?style=flat-square
-[coverage]: https://codecov.io/github/pricelinelabs/design-system
-[npm version]: https://img.shields.io/npm/v/pcln-design-system.svg?style=flat-square
+[travis-badge]: https://img.shields.io/travis/jrs-innovation-center/design-system/master.svg?style=flat-square
+[travis]: https://travis-ci.org/jrs-innovation-center/design-system
+[coverage-badge]: https://img.shields.io/codecov/c/github/jrs-innovation-center/design-system.svg?style=flat-square
+[coverage]: https://codecov.io/github/jrs-innovation-center/design-system
+[npm version]: https://img.shields.io/npm/v/trhc-design-system.svg?style=flat-square
 
-https://pricelinelabs.github.io/design-system/
+https://jrs-innovation-center.github.io/design-system/
 
 ```sh
-npm install pcln-design-system
+npm install trhc-design-system
 ```
 
 ## Contributing
 
 If you'd like to contribute to the design system, we'd love to have your help.
-If you work at Priceline.com, please join the #design-system Slack channel and let us know what you'd like to work on.
+If you work at trhc.com, please join the #design-system MM channel and let us know what you'd like to work on.
 
 For all contributors, please be sure to read the [Contributing](CONTRIBUTING.md) doc.
 
@@ -53,7 +53,14 @@ We hope to accomplish these goals by:
 - Serving as the standard for Priceline.com's visual language
 - Providing easy-to-use and extensible components for anyone to consume
 
-[site]: https://pricelinelabs.github.io/design-system/
-[storybook]: https://pricelinelabs.github.io/design-system/storybook/
+[site]: https://jrs-innovation-center.github.io/design-system/
+[storybook]: https://jrs-innovation-center.github.io/design-system/storybook/
 
 [MIT License](LICENSE.md)
+
+## Thank you
+
+* [pricelinelabs](https://pricelinelabs.github.io/design-system/)
+* [styled-components](https://www.styled-components.com/)
+* [styled-system](https://github.com/jxnblk/styled-system)
+* [tachyons](https://tachyons.io/)

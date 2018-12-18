@@ -19,7 +19,7 @@ To contribute code to the Design System, first you'll need to set it up for loca
 ### Clone the repo:
 
 ```sh
-git clone https://github.com/pricelinelabs/design-system.git
+git clone https://github.com/jrs-innovation-center/design-system.git
 cd design-system
 ```
 
@@ -62,7 +62,7 @@ open http://localhost:8000/
 
 ### Static Docs Site
 
-Markdown and source code for the [static docs site](https://pricelinelabs.github.io/design-system/) are located in
+Markdown and source code for the [static docs site](https://jrs-innovation-center.github.io/design-system/) are located in
 `docs/`. This [x0](https://www.npmjs.com/package/@compositor/x0) project requires Node 8+.
 
 To run the static docs locally:
@@ -131,7 +131,7 @@ Generally follow these rules for creating a PR:
 
 
 [semver]: http://semver.org
-[issue]: https://github.com/pricelinelabs/design-system/issues/new
+[issue]: https://github.com/jrs-innovation-center/design-system/issues/new
 [github-flow]: https://guides.github.com/introduction/flow/
 [jest]: https://facebook.github.io/jest/
 [snapshots]: https://facebook.github.io/jest/docs/en/snapshot-testing.html#content
