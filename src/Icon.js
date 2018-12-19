@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { space, color, propTypes } from 'styled-system'
-//import cleanElement from 'clean-element'
+import cleanElement from 'clean-element'
 import PropTypes from 'prop-types'
 import icons from '../icons.json'
 import theme from './theme'
@@ -36,17 +36,17 @@ const getPath = ({ name, legacy }) => {
 }
 
 // Remove `space` props from the `svg` element prevents react warnings
-// const CleanSvg = cleanElement('svg')
-// CleanSvg.propTypes = {
-//   ...propTypes.space
-// }
+const CleanSvg = cleanElement('svg')
+CleanSvg.propTypes = {
+  ...propTypes.space
+}
 
 const Base = ({ name, size, legacy, theme, ...props }) => {
   const icon = getPath({ name, legacy })
   if (!icon) return false
 
   return (
-    <svg
+    <CleanSvg
       {...props}
       viewBox={icon.viewBox}
       width={size}
@@ -54,7 +54,7 @@ const Base = ({ name, size, legacy, theme, ...props }) => {
       fill="currentcolor"
     >
       <path d={icon.path} />
-    </svg>
+    </CleanSvg>
   )
 }
 
