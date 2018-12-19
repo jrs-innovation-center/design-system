@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes, css } from 'styled-components'
 import Box from './Box'
 import Flex from './Flex'
 import Select from './Select'
@@ -25,7 +25,9 @@ const fadeIn = keyframes`
   }
 `
 const labelStyles = {
-  animation: fadeIn + ' 0.3s'
+  animation: css`
+    ${fadeIn} 0.3s;
+  `
 }
 
 const getFieldStyles = showLabel => {
