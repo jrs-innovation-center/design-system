@@ -22,6 +22,7 @@ class Tabs extends React.Component {
         this.props.onChangeTab(i)
       }
     })
+    // TODO: validate children are all Tab Components
   }
 
   render() {
@@ -34,7 +35,7 @@ class Tabs extends React.Component {
         }
       })
     })
-    return <div>{children}</div>
+    return <div {...this.props}>{children}</div>
   }
 }
 
