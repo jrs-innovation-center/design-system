@@ -7,7 +7,7 @@ const maxWidth = props =>
     ? { maxWidth: `${props.maxWidth}px` }
     : { maxWidth: props.theme.maxContainerWidth }
 
-const Container = styled.div`
+const Container = styled.section`
   margin-left: auto;
   margin-right: auto;
 
