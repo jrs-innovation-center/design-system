@@ -10,7 +10,7 @@
 [coverage]: https://codecov.io/github/jrs-innovation-center/design-system
 [npm version]: https://img.shields.io/npm/v/trhc-design-system.svg?style=flat-square
 
-https://jrs-innovation-center.github.io/design-system/
+https://design-system.jrscode.cloud/
 
 ```sh
 npm install trhc-design-system
